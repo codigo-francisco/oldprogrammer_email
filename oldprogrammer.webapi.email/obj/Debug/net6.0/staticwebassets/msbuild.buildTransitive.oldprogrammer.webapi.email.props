@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\oldprogrammer.webapi.email.props" />
+</Project>

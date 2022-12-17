@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\franc\\source\\repos\\oldprogrammer_email\\oldprogrammer.webapi.email\\wwwroot\\Templates\\confirmationemail.html",
+      "PackagePath": "staticwebassets\\Templates\\confirmationemail.html"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.oldprogrammer.webapi.email.props",
+      "PackagePath": "build\\oldprogrammer.webapi.email.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.oldprogrammer.webapi.email.props",
+      "PackagePath": "buildMultiTargeting\\oldprogrammer.webapi.email.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.oldprogrammer.webapi.email.props",
+      "PackagePath": "buildTransitive\\oldprogrammer.webapi.email.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.oldprogrammer.webapi.email.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
