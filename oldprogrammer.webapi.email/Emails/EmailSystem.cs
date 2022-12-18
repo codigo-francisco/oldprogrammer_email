@@ -57,6 +57,7 @@ namespace oldprogrammer.webapi.email.Emails
             catch (Exception ex)
             {
                 _logger.LogError(ex, "An error courred method: SendEmailConfirmationAsync, class: EmailSystems, ExceptionMessage: {Message}", ex.Message);
+                throw ex;
             }
         }
     }

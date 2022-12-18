@@ -15,7 +15,7 @@ namespace oldprogrammer.webapi.email.Controllers
             _logger = logger;
         }
         [HttpPost("sendconfirmation")]
-        public async Task<IActionResult> SendConfirmation(SendConfirmationEmail sendConfirmationEmail)
+        public async Task<IActionResult> SendConfirmation([FromBody] SendConfirmationEmail sendConfirmationEmail)
         {
             try
             {
