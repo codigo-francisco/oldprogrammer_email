@@ -8,6 +8,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web;
 
 namespace oldprogrammer.webapi.email.Emails
 {
@@ -57,7 +58,7 @@ namespace oldprogrammer.webapi.email.Emails
             catch (Exception ex)
             {
                 _logger.LogError(ex, "An error courred method: SendEmailConfirmationAsync, class: EmailSystems, ExceptionMessage: {Message}", ex.Message);
-                throw ex;
+                throw;
             }
         }
     }
